@@ -1,5 +1,5 @@
 import nltk
-
+#nltk also works with other languages other than english
 #nltk.download()
 # tokenizer are of two types:
 # word tokenizer
