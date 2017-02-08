@@ -11,6 +11,12 @@ import nltk
 
 from nltk.tokenize import sent_tokenize, word_tokenize
 
-text = "hello imran, what are you doing?"
+text = "hello imran, what are you doing? Today weather is great. Today is Wednesday."
 
+print(sent_tokenize(text)) 
+print(word_tokenize(text))
 
+for i in word_tokenize(text):
+	print(i)
+
+	
