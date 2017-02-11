@@ -1,5 +1,6 @@
 #lemmatizing is a similar to stemming
 #but it gives some form of synonym to the base word
+#lemmatizing finds correct directinary base form of a word
 
 from nltk.stem import WordNetLemmatizer
 
