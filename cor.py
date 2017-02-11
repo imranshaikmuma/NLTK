@@ -1,3 +1,4 @@
+#corpus is a large collection of texts used for natural language processing(corpora plural)
 #corpora is not navigatable
 #it is not downlodable individually
 
