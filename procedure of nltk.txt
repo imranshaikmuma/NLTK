@@ -1,0 +1,31 @@
+1. collect raw text either with scraping of websites or interacting with API. Applying filters while collecting like region or product
+will help in more focused study of data and also will reduce workloads
+2. convert text into suitable document with indicies and build a corpus based on these indicied documents
+3. compute usefulness of each word in review or text using TFIDF methods
+4. categorize documents by topics. this can be achieved using Dirichlet allocation
+5. determine sentiments of reviews either positive or negative or neutral
+6. review the results and use visualization techniques to report the results
+
+
+
+To represent collected data, raw text collected is transformed using normalization techniques like tokenization and case folding.
+tokenization problems: tokenizinig using space or punctuation gives the. we'll we're can't
+case folding problems: WHO converts to who
+bag of words: represents document as set of terms : a dog bites a man and a man bites a dog considered same. it uses single-term identifier
+TF term frequency of each word is calculated. 
+advanced methods considers factors such as word order, context, inferences and discourse
+features should also be considered such as pof tags, affixes, named entities, intonation
+topic modeling is an example of creating features. it identifies cluster of words that frequently occur together and categorized as topic
+
+it is important to create representation of corpus other than just representation of document
+
+IC information content denotes importance of term in corpus
+TFIDF is used in information retrieval and text analysis
+tfidf is used on dynamic content where as corpus is used for static content
+
+
+
+
+
+
+
