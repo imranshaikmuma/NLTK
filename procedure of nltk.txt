@@ -23,6 +23,45 @@ IC information content denotes importance of term in corpus
 TFIDF is used in information retrieval and text analysis
 tfidf is used on dynamic content where as corpus is used for static content
 
+term frequency is equal to number of times term appears in document
+can apply log to this frequency to enable more detail
+can be normalized by dividing by number of total terms in document
+
+
+
+stop words:
+common words in language can be removed by Snowball's stop word
+
+term freq problems: considers stand alone document as the entire world
+		    imp of term is based on its freq in the document
+
+solution is inverted document frequency (IDF): consider importance of term in all doc or in entire corpus
+
+df: freq of term in all documents
+idf: n/df
+
+idf has problem that since n is constant, terms having same df has same idf
+
+solution is tfidf: tf*idf
+
+tfidf doesnt reveal connections between documents
+
+document grouping: can be achieved by classification or clustering like support vector machines or k nearest neigh or naive bayes
+good approach is topic modeling. it examines words from sets of documents,determine themes and discover how themes change over time
+
+it has three steps:
+1.uncover hidden topical patterns within a corpus
+2. annotate documents according to these topics
+3. use annotation to organize, search and summarize texts
+
+topic is distribution over fixed vocabulary of words. different topics has diff dist over same vocabulary
+example for topic modeling is latent dirichlet allocation(lda)
+uses: document modeling,document classification,collaborative filtering
+
+determine sentiments:nltk
+
+gaining insights:
+
 
 
 
