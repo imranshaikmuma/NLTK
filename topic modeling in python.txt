@@ -1,0 +1,53 @@
+topic modeling:
+
+it answers what text is all about
+uncovers underlying semantic structure of text
+
+lda(latent dirichlet allocation) is simplest topic model and is a generative model. it mimics writing process. that means it generates the document given writing topics.
+
+topic chains is used to uncover underlying semantic structure of sequential corpus of news. it shows how a news evolved or changed in time and how long each news or topic lasted long. it means it captures topic evolution over time
+
+to construct topic chains:
+1.divide articles into time slices of 10 days each
+2. find topics for each time using lda
+3. look for similar topics within neighboring time slices
+4. connect similar to form topic chains
+5.identify long term general topics(h1b1 issue)
+6. identify short term temporal issues(death of a person)
+7. analyze how topics change over time
+
+topic is multinominal distribution over words--kl divergence
+topic is a vector where each dimension is a probability of word in the topic--cosine similarity
+topic is a ranked list of words--kendall's dcg
+topic is a set of top probability words
+
+asum: aspect sentiment unification model is to uncover structure of aspects and sentiments in a review
+amazon does aspect or attribute based sentiment analysis
+
+topic modeling applications:
+recommendation engine has moved to collaborative filtering to collaborative topic modeling
+
+it is a type of statistical model for discovering the abstarct topics that occur in a collection of documents
+
+exploratory:discover,browse,search,unlabeled
+latent variables:hidden thematic structure,abstract topics
+clustering:cluster of words,document collection
+
+k- no of topics
+m- no of documents
+n- no of words in each document
+psi-frequency of words in each topic
+phi-distribution of topic in each document
+
+topic modeling comes under unsupervised learning. as unsupervised learning has a disadvantage of not having training dataset 
+
+python libraries of topic modeling:
+genism-has two modes;online and batch
+graphlab
+lda
+sklearn
+
+sources:
+https://www.youtube.com/watch?v=BuMu-bdoVrU
+https://www.youtube.com/watch?v=1wcX4fEdNUo
+https://www.youtube.com/watch?v=uNhCoyCFGxA
