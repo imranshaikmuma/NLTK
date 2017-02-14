@@ -47,7 +47,26 @@ graphlab
 lda
 sklearn
 
+library for topic modeling in java:mallet
+
 sources:
 https://www.youtube.com/watch?v=BuMu-bdoVrU
 https://www.youtube.com/watch?v=1wcX4fEdNUo
 https://www.youtube.com/watch?v=uNhCoyCFGxA
+chdoig.github.com/pytexas2015-topic-modeling
+
+library resources:
+genism:radimrehurek.com/genism/
+graphlab:dato.com/products/create/docs/generated/graphlab.topic_model.create.html
+lda:pythonhosted.org//lda/
+sklearn:
+
+blog: https://de.dariah.eu/tatom/topic_model_python.html
+http://scikit-learn.org/stable/auto_examples/applications/topics_extraction_with_nmf.html
+
+others:
+http://www.cs.princeton.edu/~blei/papers/Blei2012.pdf
+http://miriamposner.com/blog/very-basic-strategies-for-interpreting-results-from-the-topic-modeling-tool/
+http://journalofdigitalhumanities.org/2-1/topic-modeling-a-basic-introduction-by-megan-r-brett/
+https://beta.oreilly.com/ideas/topic-models-past-present-and-future
+http://mallet.cs.umass.edu/topics.php
