@@ -11,7 +11,7 @@ words = ["run","running","ran","runner"]
 for w in words:
 	print(ps.stem(w))
 	
-text = "It is import to be pythonly while you are pythoning with python. all pythoners have pythoned poorly atleast once"
+text = "It is important to be pythonly while you are pythoning with python. all pythoners have pythoned poorly atleast once"
 
 text_words =  word_tokenize(text)
 
@@ -19,3 +19,14 @@ for w in text_words:
 	print(ps.stem(w))
 	
 
+	
+	
+	
+#below method uses snowball
+	
+from nltk.stem.snowball import EnglishStemmer
+
+stemmer = EnglishStemmer()
+
+
+[print(stemmer.stem(w)) for w in text_words]
