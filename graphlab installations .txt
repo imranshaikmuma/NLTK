@@ -1,0 +1,28 @@
+graphlab installation:
+
+change your python from 3 to 2.7 as graphlab is having issues with python3 
+install anaconda2 4.0.0
+get your token of graphlab by registering through the website and install graphlab from anaconda2
+
+below is the syntax to install graphlab:
+pip install --upgrade --no-cache-dir https://get.graphlab.com/GraphLab-Create/2.1/your registered email address here/your product key here/GraphLab-Create-License.tar.gz
+pip install --upgrade --no-cache-dir https://get.graphlab.com/GraphLab-Create/2.1/imranshaik@mail.usf.edu/314A-AABD-4CF3-4AE5-E0AA-0C8E-E3BF-3B5C/GraphLab-Create-License.tar.gz
+
+get graphlab dependencies from following:
+graphlab.get_dependencies()
+
+
+install jupyter notebook:
+conda install ipython-notebook
+
+
+jupyter kernel error:
+python -m ipykernel install --user
+
+windows-scipy-install-no-lapack-blas-resources-found:
+get the scipy whl from http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy and install it
+
+
+
+
+
