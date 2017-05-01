@@ -1,0 +1,1 @@
+Be warned. This phone is not unlocked. I entered a foreign GSM sim into the phone and got a message that the SIM is not allowed per the current "activation policy".

@@ -1,0 +1,1 @@
+Would not focus if the zoom was past 10x or so. What is the point of 25x zoom if it won't focus?

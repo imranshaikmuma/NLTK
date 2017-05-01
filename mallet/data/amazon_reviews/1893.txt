@@ -1,0 +1,1 @@
+The initial 4GB is not sufficient as Windows 10 grabs all of it. I added 1 stick of  the Crucial 8GB Single DDR3L 1600 (CT102464BF160B) and now it runs like a champ.  The i3 quad core processor is very strong and should satisfy most casual users.  This is not a gaming or heavy computations computer but works great for Netflix and chill.

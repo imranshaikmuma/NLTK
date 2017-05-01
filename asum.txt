@@ -1,0 +1,21 @@
+-->assumption of lda in topic modeling:
+it assumes that every document in the corpus is made up of one or more topics (multiple) with their probability distributions over those topics.
+
+-->lda is a generative process
+
+
+
+-->ASPECT SENTIMENT UNIFICATION MODEL:
+it is built to uncover relationship between sentiments and aspects
+here we discover aspects and discover words in them that express sentiments
+
+assumption in ASUM is one sentence describes one aspects
+
+assumption in ASUM vs assumption in LDA:
+each sentence represent one aspect in ASUM---this is done to capture locality of word and in general words together has different meaning than taken separately
+each word represent one topic in LDA
+
+
+
+topic modeling libraries in python:
+genism, graphlab, lda and scikit learn

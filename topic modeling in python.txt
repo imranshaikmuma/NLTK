@@ -38,6 +38,7 @@ m- no of documents
 n- no of words in each document
 psi-frequency of words in each topic
 phi-distribution of topic in each document
+alpha,beta--hyperparameters
 
 topic modeling comes under unsupervised learning. as unsupervised learning has a disadvantage of not having training dataset 
 
@@ -53,6 +54,7 @@ sources:
 https://www.youtube.com/watch?v=BuMu-bdoVrU
 https://www.youtube.com/watch?v=1wcX4fEdNUo
 https://www.youtube.com/watch?v=uNhCoyCFGxA
+https://www.youtube.com/watch?v=DDq3OVp9dNA
 chdoig.github.com/pytexas2015-topic-modeling
 
 library resources:
@@ -70,3 +72,7 @@ http://miriamposner.com/blog/very-basic-strategies-for-interpreting-results-from
 http://journalofdigitalhumanities.org/2-1/topic-modeling-a-basic-introduction-by-megan-r-brett/
 https://beta.oreilly.com/ideas/topic-models-past-present-and-future
 http://mallet.cs.umass.edu/topics.php
+
+evaluate model:
+radmrehurek.com/topic_modeling_tutorial/...
+mimno.infosci.cornell.edu/slides/details.pdf
